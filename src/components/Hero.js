@@ -15,6 +15,10 @@ function Hero() {
                         <p class="hero__name"><span className="hero__name-first">MUHAMMAD</span>  DANISH</p>
                         <h1 class="hero__tagline">Let your   <br></br> brand talk.</h1>
                         <p class="hero__dev">BY BRINGING THE ART TO THE CART.</p>
+
+                        <a class="btn-project btn-small btn-hero" href="https://www.upwork.com/freelancers/~0116fd22bce4f6fe7b"
+                            target="_blank">Get
+                            Started</a>
                     </div>
                     <figure class="hero__imgContainer">
                         <img class="hero__img1" src={ellipse1} alt="Motivatation IMG" />
