@@ -1,19 +1,19 @@
 import React from "react";
-import favicon from './src/assets/images/favicon/favicon.ico'
-import favicon1 from './src/assets/images/favicon/apple-icon-57x57.png'
-import favicon2 from './src/assets/images/favicon/apple-icon-60x60.png'
-import favicon3 from './src/assets/images/favicon/apple-icon-72x72.png'
-import favicon4 from './src/assets/images/favicon/apple-icon-76x76.png'
-import favicon5 from './src/assets/images/favicon/apple-icon-114x114.png'
-import favicon6 from './src/assets/images/favicon/apple-icon-120x120.png'
-import favicon7 from './src/assets/images/favicon/apple-icon-144x144.png'
-import favicon8 from './src/assets/images/favicon/apple-icon-152x152.png'
-import favicon9 from './src/assets/images/favicon/apple-icon-180x180.png'
-import favicon10 from './src/assets/images/favicon/android-icon-192x192.png'
-import favicon11 from './src/assets/images/favicon/favicon-32x32.png'
-import favicon12 from './src/assets/images/favicon/favicon-96x96.png'
-import favicon13 from './src/assets/images/favicon/favicon-16x16.png'
-import manifest from './src/assets/images/favicon/manifest.json'
+import favicon from '/src/assets/images/favicon/favicon.ico'
+import favicon1 from '/src/assets/images/favicon/apple-icon-57x57.png'
+import favicon2 from '/src/assets/images/favicon/apple-icon-60x60.png'
+import favicon3 from '/src/assets/images/favicon/apple-icon-72x72.png'
+import favicon4 from '/src/assets/images/favicon/apple-icon-76x76.png'
+import favicon5 from '/src/assets/images/favicon/apple-icon-114x114.png'
+import favicon6 from '/src/assets/images/favicon/apple-icon-120x120.png'
+import favicon7 from '/src/assets/images/favicon/apple-icon-144x144.png'
+import favicon8 from '/src/assets/images/favicon/apple-icon-152x152.png'
+import favicon9 from '/src/assets/images/favicon/apple-icon-180x180.png'
+import favicon10 from '/src/assets/images/favicon/android-icon-192x192.png'
+import favicon11 from '/src/assets/images/favicon/favicon-32x32.png'
+import favicon12 from '/src/assets/images/favicon/favicon-96x96.png'
+import favicon13 from '/src/assets/images/favicon/favicon-16x16.png'
+import manifest from '/src/assets/images/favicon/manifest.json'
 
 
 export function onRenderBody(
@@ -35,7 +35,7 @@ export function onRenderBody(
     <link rel="icon" type="image/png" sizes="16x16" href={favicon13} />,
     <link rel="manifest" href={manifest} />,
     <meta name="msapplication-TileColor" content="#ffffff" />,
-    <meta name="msapplication-TileImage" content="./src/assets/images/favicon/ms-icon-144x144.png" />,
+    <meta name="msapplication-TileImage" content="/src/assets/images/favicon/ms-icon-144x144.png" />,
     <meta name="theme-color" content="#ffffff" />,
     <title>Muhammad Danish | A Website Developer</title>,
   ]);
