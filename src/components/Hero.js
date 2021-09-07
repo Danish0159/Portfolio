@@ -16,7 +16,7 @@ function Hero() {
                         <h1 className="hero__tagline">Let your   <br></br> brand talk.</h1>
                         <p className="hero__dev">BY BRINGING THE ART TO THE CART.</p>
 
-                        <a className="btn-project btn-small btn-hero" href="https://www.upwork.com/freelancers/~0116fd22bce4f6fe7b"
+                        <a className="btn-small btn-hero" href="https://www.upwork.com/freelancers/~0116fd22bce4f6fe7b"
                             target="_blank">Get
                             Started</a>
                     </div>

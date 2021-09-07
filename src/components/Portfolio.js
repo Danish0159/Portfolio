@@ -22,7 +22,7 @@ function Portfolio() {
                     githubUrl="https://smarthomesafe.netlify.app/"
                     imgSrc={home}
                     name="SMART HOME SAFE"
-                    description="Worked with a team, added auth0, collected data through forms, converted html to gatsby, added chat and calendly widgets. Made using Gatsby/React."
+                    description="Worked with a team, added auth0, collected data through forms, added chat and calendly widgets. Made using Gatsby/React."
                 >
                 </Project>
                 <Project

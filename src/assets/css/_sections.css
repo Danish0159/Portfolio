@@ -281,7 +281,8 @@
 .experience__img {
   display: block;
   margin: auto;
-  height: 60vh;
+  height: 40rem;
+  width: 50rem;
 }
 
 .skills {
@@ -306,17 +307,31 @@
   max-width: 124px;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 992px) {
   .experience__img {
-    height: 50vh;
-    width: 85%;
+    height: 30rem !important;
+    width: 50%;
   }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (max-width: 576px) {
   .experience__img {
-    height: 40vh;
-    margin-bottom: 5rem;
+    height: 20rem !important;
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .experience__img {
+    height: 20rem !important;
+    width: 80vw;
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  .experience__img {
+    height: 45rem;
+    width: 55rem;
   }
 }
 
@@ -341,13 +356,15 @@
 .portfolio-grid {
   max-width: 100rem;
   margin: 7rem auto;
+  margin-bottom: 13rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
-  grid-gap: 4rem 5rem;
+  grid-gap: 10.5rem 5rem;
 }
 
 .project {
   background-color: var(--primary-3);
+  position: relative;
 }
 
 .project__img {
@@ -370,6 +387,9 @@
 }
 
 .projectC__btn {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
   background-color: var(--primary-1);
   display: flex;
   justify-content: space-between;
@@ -475,4 +495,239 @@
   color: var(--primary-4);
   font-size: 1.8rem;
   margin-top: 1rem;
+}
+
+/* ////////////////////////////// */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* ----------- Galaxy Tab 2 ----------- */
+
+/* Portrait and Landscape */
+@media (min-device-width: 800px) and (max-device-width: 1280px) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Portrait */
+@media (max-device-width: 800px) and (orientation: portrait) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Landscape */
+@media (max-device-width: 1280px) and (orientation: landscape) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* ----------- Galaxy Tab S ----------- */
+
+/* Portrait and Landscape */
+@media (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Portrait */
+@media (max-device-width: 800px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Landscape */
+@media (max-device-width: 1280px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* ----------- Nexus 7 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Portrait */
+@media screen and (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: portrait) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Landscape */
+@media screen and (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: landscape) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* ----------- Nexus 9 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Portrait */
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: portrait) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Landscape */
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: landscape) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* ----------- Kindle Fire HD 8.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  .hero {
+    min-height: 60vh;
+  }
 }
