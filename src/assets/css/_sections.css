@@ -172,20 +172,6 @@
   width: 3.3rem;
 }
 
-/* 
-/* xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px */
-
-@media only screen and (max-width: 768px) {
-  .hero {
-    min-height: 60vh;
-  }
-}
-
 @media only screen and (min-width: 1400px) {
   .hero {
     min-height: 50vh;
@@ -240,6 +226,13 @@
   .hero__img {
     height: 20rem !important;
     width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .hero__img {
+    height: 20rem !important;
+    width: 80vw;
   }
 }
 
