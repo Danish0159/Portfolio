@@ -10,7 +10,7 @@ function Upwork() {
                 <h2>WEB DEVELOPMENT</h2>
                 {/* <h2>Web Dev | React JS | Gatsby | JavaScript | CSS | Bootstrap </h2> */}
                 <a href="https://www.upwork.com/freelancers/~0116fd22bce4f6fe7b" target="_blank"><button
-                    class="content__btn btn">Get
+                    className="content__btn btn">Get
                     Started</button></a>
             </div>
         </footer>
