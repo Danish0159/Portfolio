@@ -172,23 +172,23 @@
   width: 3.3rem;
 }
 
+@media only screen and (min-width: 1400px) {
+  .hero {
+    min-height: 50vh;
+  }
+}
+
 /* For Tablets */
 @media only screen and (width: 768px) and (height: 1024px) {
   .hero {
-    min-height: 50vh;
+    min-height: 50vh !important;
   }
 }
 
 /* For Tablets */
 @media only screen and (width: 1366px) and (height: 1024px) {
   .hero {
-    min-height: 50vh;
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-  .hero {
-    min-height: 50vh;
+    min-height: 50vh !important;
   }
 }
 
