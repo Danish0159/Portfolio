@@ -4,8 +4,6 @@ import big from "../assets/images/smill.png"
 import ellipse1 from "../assets/images/Ellipse 7.png"
 import ellipse2 from "../assets/images/Ellipse 8.png"
 
-
-
 function Hero() {
     return (
         <>

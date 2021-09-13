@@ -1,6 +1,6 @@
 import React from 'react'
 import Project from './Project'
-import eco from "../assets/images/Project images/econimicoo.jpeg"
+// import eco from "../assets/images/Project images/econimicoo.jpeg"
 import hotelelite from "../assets/images/Project images/hotelelite.jpg"
 import zan1 from "../assets/images/Project images/zan1.jpg"
 import backroads from "../assets/images/Project images/backroads.jpeg"

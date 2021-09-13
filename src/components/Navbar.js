@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'gatsby'
 import logo from "../assets/images/logo.png"
 
 function Navbar() {

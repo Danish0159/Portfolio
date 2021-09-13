@@ -20,7 +20,6 @@ export default function Home() {
         <title>Muhammad Danish | A Website Developer</title>,
         <meta name="description" content="Web Dev | React JS | Gatsby | JavaScript | CSS | Bootstrap | Adobe XD." />
         <meta name="keywords" content="Front End Development, React Js Developer, Web Dev, React JS, Gatsby, JavaScript, HTML, CSS, Bootstrap, PhotoShop, Adobe XD, Upwork Web Development. " />
-
       </Helmet>
 
       <Navbar></Navbar>
