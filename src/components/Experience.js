@@ -36,7 +36,6 @@ function Experience() {
                         <img className="skills__item" src={sass} alt="JavaScript LOGO" />
                         <img className="skills__item" id="bootstrap__icon" src={bootstrap} alt="JavaScript LOGO" />
                         <img className="skills__item" src={git} alt="JavaScript LOGO" />
-                        {/* <img class="skills__item" src={sass} alt="JavaScript LOGO" /> */}
                         <img className="skills__item" src={xd} alt="JavaScript LOGO" />
                         <img className="skills__item" src={ps} alt="JavaScript LOGO" />
                         <img className="skills__item" src={linux} alt="JavaScript LOGO" />
