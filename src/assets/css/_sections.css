@@ -178,6 +178,12 @@
   }
 }
 
+@media only screen and (max-width: 576px) {
+  .hero {
+    min-height: 65vh;
+  }
+}
+
 /* For Tablets */
 @media only screen and (width: 768px) and (height: 1024px) {
   .hero {

@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
     return (
         //    < !--About Section-- >
-        <section className="about-container section">
+        <section className="about-container section" id="About">
             <div className="about">
                 <h2 className="about__title"> About Me </h2>
                 <p className="about__study">Hey! Are you looking for a Web developer, React developer or

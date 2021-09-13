@@ -12,7 +12,7 @@ import home from "../assets/images/Project images/home1.jpg"
 
 function Portfolio() {
     return (
-        <section className="portfolio-section section" id="portfolio">
+        <section className="portfolio-section section" id="Portfolio">
             <h2 className="portfolio-section__title">Portfolio</h2>
             <div className="portfolio-grid">
 

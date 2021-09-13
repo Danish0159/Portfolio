@@ -17,7 +17,7 @@ function Hero() {
                         <p className="hero__dev">BY BRINGING THE ART TO THE CART.</p>
 
                         <a className="btn-small btn-hero" href="https://www.upwork.com/freelancers/~0116fd22bce4f6fe7b"
-                            target="_blank">Get
+                            target="_blank" rel="noopener" rel="noreferrer">Get
                             Started</a>
                     </div>
                     <figure className="hero__imgContainer">
