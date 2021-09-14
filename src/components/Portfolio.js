@@ -18,8 +18,8 @@ function Portfolio() {
 
                 <Project
                     key={1}
-                    url="https://smarthomesafe.netlify.app/"
-                    githubUrl="https://smarthomesafe.netlify.app/"
+                    url="https://smarthomesafe1.netlify.app/"
+                    githubUrl="https://smarthomesafe1.netlify.app/"
                     imgSrc={home}
                     name="SMART HOME SAFE"
                     description="Worked with a team, added auth0, collected data through forms, added chat and calendly widgets. Made using Gatsby/React."
