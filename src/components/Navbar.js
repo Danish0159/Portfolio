@@ -13,7 +13,7 @@ function Navbar() {
                     <li className="navigation__item"><a className="navigation__link" href="#Home">Home</a></li>
                     <li className="navigation__item"><a className="navigation__link" href="#About">About</a></li>
                     <li className="navigation__item"><a className="navigation__link" href="#Portfolio">Portfolio</a></li>
-                    <li className="navigation__item"><a className="navigation__link" href="#Contact">Contact Me</a></li>
+                    <li className="navigation__item"><a className="navigation__link" href="#Contact">Contact</a></li>
                 </ul>
 
                 {/* Desktop */}

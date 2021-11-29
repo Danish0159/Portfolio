@@ -9,7 +9,6 @@ import Footer from "../components/Footer"
 import Upwork from "../components/Upwork"
 import { Helmet } from "react-helmet";
 
-
 export default function Home() {
   return (
     <>
