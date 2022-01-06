@@ -9,15 +9,16 @@ import boiler from "../assets/images/Project images/boiler.jpg"
 import movie from "../assets/images/Project images/movie.jpg"
 import home from "../assets/images/Project images/home1.jpg"
 
-
-
 function Portfolio() {
     return (
         <section className="portfolio-section section" id="Portfolio">
             <h2 className="portfolio-section__title">Portfolio</h2>
+            {/* 
+Here Create a select menu with two options
+1-  Professional Sites. 
+*/}
+            {/* 1-  Professional Sites. */}
             <div className="portfolio-grid">
-
-
                 <Project
                     key={5}
                     url="https://www.zanmedia.net/"
@@ -31,7 +32,7 @@ function Portfolio() {
                 <Project
                     key={2}
                     url="https://local.londonboilerservices.com/"
-                    githubUrl="https://local.londonboilerservices.com/"
+                    githubUrl="https://github.com/Danish0159/lbs-v2"
                     imgSrc={boiler}
                     name="LONDON BOILER"
                     description="Developed a white label solution for a business, A site that can be easily replicable for different cities. Developed different versions for different cities, Made using Bootstrap and JavaScript."
@@ -41,13 +42,12 @@ function Portfolio() {
                 <Project
                     key={1}
                     url="https://smarthomesafe1.netlify.app/"
-                    githubUrl="https://smarthomesafe1.netlify.app/"
+                    githubUrl="https://github.com/Danish0159/Smart-Home-Safe"
                     imgSrc={home}
                     name="SMART HOME SAFE"
                     description="Worked with a team as a Front Developer, added auth0, collected data through forms, added chat, cookies and calendly widgets. Made using HTML, CSS and Gatsby/React."
                 >
                 </Project>
-
                 <Project
                     key={2}
                     url="https://moviecloud1.netlify.app/"
@@ -61,6 +61,7 @@ function Portfolio() {
                     A site that can be esily replicateable etc.
                 </Project>
 
+                {/* Blog Project */}
                 <Project
                     key={6}
                     url="https://hotel-elite.netlify.app/"
@@ -71,6 +72,7 @@ function Portfolio() {
                 >
                 </Project>
 
+                {/* Some Unique Project */}
                 <Project
                     key={4}
                     url="https://backroadss.netlify.app/"
@@ -80,18 +82,8 @@ function Portfolio() {
                     description="Stay up to date with the latest info about trips with space available. Made using HTML, SASS, JavaScript etc"
                 >
                 </Project>
-                {/* <Project
-                    key={3}
-                    url="https://danish-dinarestaurant.netlify.app/"
-                    githubUrl="https://github.com/Danish0159/DINA-Restaurant"
-                    imgSrc={omnifood}
-                    name="DINA RESTAURANT"
-                    description="Fully featured restaurant website with gallery, testimonills, features and form validation. Made using HTML, SASS, JavaScript etc"
-                >
-                </Project> */}
             </div>
         </section>
     )
 }
-
 export default Portfolio
