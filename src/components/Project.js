@@ -14,10 +14,10 @@ function Project({ imgSrc, name, url, githubUrl, description }) {
                     </p>
                 </div>
                 <div className="projectC__btn">
-                    <a href={url} className="btn-small btn-project" target="_blank" rel="noopener" rel="noreferrer">
+                    <a href={url} className="btn-small btn-project" target="_blank" rel="noopener">
                         See Live
                     </a>
-                    <a href={githubUrl} className="btn-small btn-project" target="_blank" rel="noopener" rel="noreferrer">
+                    <a href={githubUrl} className="btn-small btn-project" target="_blank" rel="noopener">
                         See Github
                     </a>
                 </div>
