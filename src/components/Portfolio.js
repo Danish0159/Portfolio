@@ -32,7 +32,7 @@ function Portfolio() {
                 </Project>
                 <Project
                     key={3}
-                    url="https://local.londonboilerservices.com/"
+                    url="https://www.londonboilerservices.com/"
                     githubUrl="https://github.com/Danish0159/lbs-v2"
                     imgSrc={boiler}
                     name="LONDON BOILER"
