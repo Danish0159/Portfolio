@@ -24,7 +24,7 @@ function Portfolio() {
         </Project>
         <Project
           key={3}
-          url="https://adminbookingbeak.netlify.app/"
+          url="https://clientbookingbea.netlify.app/"
           githubUrl="https://muhammaddanish0159.wistia.com/medias/e3iynhvdk0"
           imgSrc={booking}
           name="BOOKING BEA"
