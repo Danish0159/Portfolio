@@ -57,17 +57,23 @@
 /* //////////////////////////////////////// */
 
 .content__btn {
-  font-size: 1.6rem;
-  font-weight: 600;
   width: 210px;
   height: 5.4rem;
   text-align: center;
   margin-left: 1rem;
-  color: #ffffff;
   background: transparent;
   border: 0.1rem solid #ffffff;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+
+  font-family: "Bebas Neue";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .content__btn:hover,
@@ -102,6 +108,7 @@
 }
 
 @media only screen and (max-width: 992px) {
+
   /* Desktop btn */
   .navbar__Desktop-btn {
     display: none !important;
@@ -130,6 +137,7 @@
   .nav-btn::before {
     transform: translateY(-1.2rem);
   }
+
   .nav-btn::after {
     transform: translateY(1rem);
   }

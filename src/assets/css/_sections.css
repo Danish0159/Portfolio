@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* xs: 0,
   sm: 576px,
   md: 768px,
@@ -70,6 +73,7 @@
     height: 8rem;
     margin-left: 2.8rem;
   }
+
   .navigation {
     justify-content: center;
     flex-direction: column;
@@ -118,6 +122,41 @@
   margin-bottom: 2rem;
 }
 
+.hero__tagline {
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000;
+  font-size: 156px;
+  line-height: 1;
+}
+
+.hero__dev {
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000;
+  font-size: 48px;
+  line-height: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero__tagline {
+    font-size: 80px;
+  }
+
+  .hero__dev {
+    font-size: 48px;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero__dev {
+    font-size: 30px;
+  }
+}
+
 .hero__name-first {
   font-weight: 500;
   font-style: normal;
@@ -125,16 +164,10 @@
   font-size: 3rem;
 }
 
-.hero__dev {
-  font-weight: 500;
-  font-style: normal;
-  color: var(--primary-4);
-  font-size: 2.5rem;
-  margin-top: 2.5rem;
-}
+
 
 .hero__grid {
-  max-width: 95rem;
+  max-width: 100rem;
   margin: auto;
   display: grid;
   grid-template-columns: 4fr 1fr;
@@ -202,11 +235,9 @@
   .hero__name {
     font-size: 2rem;
   }
+
   .hero__name-first {
     font-size: 2rem;
-  }
-  .hero__dev {
-    font-size: 1.5rem;
   }
 }
 
@@ -214,6 +245,7 @@
   .hero__grid {
     grid-template-columns: 1fr;
   }
+
   .hero__img1,
   .hero__img2,
   .hero__img3 {
@@ -267,16 +299,16 @@
 /* //////////////////////////////////////// */
 /* ABOUT US */
 /* //////////////////////////////////////// */
-.about-container {
-  background-color: hsl(183, 40%, 96%);
-}
+/* .about-container { */
+/* background-color: hsl(183, 40%, 96%); */
+/* } */
 
 .about {
   max-width: 95rem;
   margin: 0rem auto;
 }
 
-.about > * {
+.about>* {
   margin-bottom: 2.8rem;
 }
 
@@ -417,7 +449,7 @@
   padding: 1.2rem 1rem;
 }
 
-.projectC__btn > a {
+.projectC__btn>a {
   font-size: 2rem;
 }
 
@@ -427,7 +459,8 @@
 
 .upwork {
   padding: 15rem 15rem;
-  background-color: var(--primary-4);
+  /* background-color: var(--primary-4); */
+  background-color: #13544e;
   color: white;
   display: flex;
   align-items: center;
@@ -443,9 +476,17 @@
 }
 
 .upwork h2 {
-  font-size: 3rem;
-  color: white;
   margin-bottom: 3rem;
+  font-size: 36px;
+  font-family: 'Bebas Neue', cursive;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 1;
+  margin-left: 1rem;
 }
 
 @media only screen and (max-width: 992px) {
@@ -467,12 +508,14 @@
   .upwork__logo {
     width: 18rem;
   }
+
   .upwrok__content {
     text-align: center;
     margin-left: 0rem;
     margin-top: 2rem;
   }
-  .upwrok__content > h2 {
+
+  .upwrok__content>h2 {
     font-size: 2rem !important;
   }
 }
@@ -493,6 +536,13 @@
   font-size: 3rem;
   margin-bottom: 2.9rem;
   color: var(--primary-4);
+
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  color: #000;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
 }
 
 .footer__icon-div {
@@ -502,7 +552,7 @@
 .footer__icon {
   font-size: 3rem;
   margin: 0rem 1.3rem;
-  color: var(--primary-4);
+  color: #000;
 }
 
 .footer__icon:hover {
@@ -512,7 +562,8 @@
 .footer__privacy {
   font-weight: 300;
   font-style: normal;
-  color: var(--primary-4);
+  color: #000;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
-  margin-top: 1rem;
+  margin-top: 1.4rem;
 }
