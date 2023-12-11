@@ -3,7 +3,7 @@ import "../assets/css/index.css";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
-import Experience from "../components/Experience";
+import Schedule from "../components/Schedule";
 import Portfolio from "../components/Portfolio";
 import Footer from "../components/Footer";
 import Upwork from "../components/Upwork";
@@ -29,9 +29,9 @@ export default function Home() {
       <Navbar></Navbar>
       <Hero></Hero>
       <About></About>
-      {/* <Experience></Experience> */}
       <Portfolio></Portfolio>
       <Upwork></Upwork>
+      <Schedule></Schedule>
       <Footer></Footer>
     </>
   );

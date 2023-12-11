@@ -8,9 +8,16 @@ module.exports = {
   /* Your site config here */
   plugins: [
     {
-      resolve: 'gatsby-plugin-html-attributes',
+      resolve: "gatsby-plugin-html-attributes",
       options: {
-        lang: 'en'
-      }
-    }],
-}
+        lang: "en",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "src/assets/images/logo.png",
+      },
+    },
+  ],
+};

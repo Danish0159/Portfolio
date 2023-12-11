@@ -521,6 +521,70 @@
 }
 
 /* //////////////////////////////////////// */
+/* Schedule */
+/* //////////////////////////////////////// */
+.schedule {
+  padding: 15rem 15rem;
+  background-color: #006bff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.schedule__logo {
+  width: 22rem;
+}
+
+.schedule__content {
+  margin-left: 5rem;
+}
+
+.schedule h2 {
+  margin-bottom: 3rem;
+  font-size: 36px;
+  font-family: 'Bebas Neue', cursive;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 1;
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .schedule {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15rem 0rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .schedule {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .schedule__logo {
+    width: 18rem;
+  }
+
+  .schedule__content {
+    text-align: center;
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
+
+  .schedule__content>h2 {
+    font-size: 2rem !important;
+  }
+}
+
+/* //////////////////////////////////////// */
 /* FOOTER */
 /* //////////////////////////////////////// */
 
