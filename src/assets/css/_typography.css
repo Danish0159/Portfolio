@@ -1,41 +1,5 @@
-/* 
-1000
-850
-574
-*/
-
-/* //////////////////////////////////////// */
-/* HEADINGS */
-/* //////////////////////////////////////// */
-/* h1 {
-  font-family: "Tomato Grotesk", sans-serif;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 12rem;
-  color: var(--primary-4);
-  line-height: 0.9;
-}
-
-@media only screen and (max-width: 992px) {
-  h1 {
-    font-size: 8.5rem;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  h1 {
-    font-size: 7.5rem;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  h1 {
-    font-size: 5.8rem;
-  }
-} */
-
 h2 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 5rem;
@@ -51,7 +15,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 3.2rem;

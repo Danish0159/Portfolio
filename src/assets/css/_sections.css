@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=block');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=block');
 
 /* xs: 0,
   sm: 576px,
@@ -123,7 +123,7 @@
 }
 
 .hero__tagline {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #000;
@@ -132,7 +132,7 @@
 }
 
 .hero__dev {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #000;
@@ -478,7 +478,7 @@
 .upwork h2 {
   margin-bottom: 3rem;
   font-size: 36px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #fff;
@@ -542,7 +542,7 @@
 .schedule h2 {
   margin-bottom: 3rem;
   font-size: 36px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #fff;
@@ -601,7 +601,7 @@
   margin-bottom: 2.9rem;
   color: var(--primary-4);
 
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", sans-serif;
   letter-spacing: 2px;
   color: #000;
   font-weight: 400;

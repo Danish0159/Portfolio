@@ -9,20 +9,17 @@ function About() {
           Hi there
         </h2>
         <p className="about__study">
-          Hey! Are you looking for a Full Stack Developer, MERN or JavaScript
-          Developer?
+          Seeking a Full Stack Developer adept at resolving business-related tech challenges?
         </p>
         <p className="about__study">
-          A Website Developer focused on Web technologies HTML/CSS/JavaScript,
-          React.js, Redux/toolkit, Node, Express, MUI, Typescript. I appreciate
-          clear and detailed documentation.
+          Experienced Full-Stack Developer focused on Web technologies HTML/CSS/JavaScript,
+          React.js, Next.js, Node.js, Express, Redux/toolkit, Typescript. I appreciate clear and detailed documentation.
           {/* I’m Danish, I'm a passionate Developer using web technologies to build
           amazing products and working to make your development faster, reliable
           and efficient. */}
         </p>
         <p className="about__description">
-          I’m always down for hearing about new projects, so feel free to drop
-          me a line.
+          Open to discussing new projects—feel free to reach out anytime.
         </p>
       </div>
     </section>
