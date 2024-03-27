@@ -12,8 +12,8 @@ function About() {
           Seeking a Full Stack Developer adept at resolving business-related tech challenges?
         </p>
         <p className="about__study">
-          Experienced Full-Stack Developer focused on Web technologies HTML/CSS/JavaScript,
-          React.js, Next.js, Node.js, Express, Redux/toolkit, Typescript. I appreciate clear and detailed documentation.
+          Experienced Full-Stack Developer focused on Web technologies HTML, CSS, JavaScript,
+          React, Next, Node, Express, Redux-toolkit, Typescript. I appreciate clear and detailed documentation.
           {/* I’m Danish, I'm a passionate Developer using web technologies to build
           amazing products and working to make your development faster, reliable
           and efficient. */}

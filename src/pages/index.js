@@ -16,7 +16,7 @@ export default function Home() {
     // Simulate font loading delay
     setTimeout(() => {
       setIsLoading(false);
-    }, 700); // Adjust the delay time as needed
+    }, 300); // Adjust the delay time as needed
   }, []);
 
   return (
