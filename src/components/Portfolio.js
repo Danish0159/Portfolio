@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "./Project";
 import mahnty from "../assets/images/Project images/join1.jpg";
-import zan from "../assets/images/Project images/zan3.jpeg";
+import zan from "../assets/images/Project images/zan2.jpeg";
 import boiler from "../assets/images/Project images/boiler.jpg";
 
 
