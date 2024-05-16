@@ -14,19 +14,21 @@ function Project({ imgSrc, name, url, githubUrl, description }) {
         <div className="projectC__btn">
           <a
             href={url}
-            className="btn-small btn-project"
+            // className="btn-small btn-project"
             target="_blank"
             rel="noopener"
           >
-            See Live
+            {/* See Live */}
+            <button className="content__btn content__btn--project btn">See Live</button>
           </a>
           <a
             href={githubUrl}
-            className="btn-small btn-project"
+            // className="btn-small btn-project"
             target="_blank"
             rel="noopener"
           >
-            Video Recap
+            <button className="content__btn content__btn--project btn">Video Recap</button>
+            {/* Video Recap */}
           </a>
         </div>
       </div>

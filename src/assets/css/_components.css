@@ -82,11 +82,85 @@
   color: #000000;
 }
 
+/* Type: Navbar */
+.content__btn--navbar {
+  margin-left: 0rem;
+  border: 1px solid #2a7a78;
+  background: #2a7a78;
+  width: 170px;
+}
+
+.content__btn--navbar:hover,
+.content__btn--navbar:focus {
+  background: #def0f1;
+  color: #17242B;
+  border: 1px solid #17242B;
+}
+
+/* 
+.content__btn--navbar {
+  color: #17242B;
+  border: 0.1rem solid #17242B;
+  background: #def0f1;
+  width: 170px;
+}
+
+.content__btn--navbar:hover,
+.content__btn--navbar:focus {
+  background: #ffffff;
+  color: #000000;
+} */
+
+/* Type: Project */
+.content__btn--project {
+  margin-left: 0rem;
+  margin: 0rem .5rem;
+  width: 130px;
+  height: 4.4rem;
+
+  border: 1px solid #2a7a78;
+  background: #2a7a78;
+}
+
+.content__btn--project:hover,
+.content__btn--project:focus {
+  color: #ffffff;
+  border: 1px solid #2a7a78;
+  background: #2a7a78;
+}
+
+/* Type: Hero */
+.content__btn--hero {
+  display: none !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .content__btn--hero {
+    display: inline-block !important;
+    margin-left: 0rem;
+
+
+    margin-top: 2rem;
+    width: 130px;
+    height: 4rem;
+
+    border: 1px solid #2a7a78;
+    background: #2a7a78;
+  }
+}
+
+.content__btn--hero:hover,
+.content__btn--hero:focus {
+  color: #ffffff;
+  border: 1px solid #2a7a78;
+  background: #2a7a78;
+}
+
 /* //////////////////////////////////////// */
 /* Hero Section Btn*/
 /* //////////////////////////////////////// */
 
-.btn-hero {
+/* .btn-hero {
   display: none !important;
 }
 
@@ -97,7 +171,7 @@
     padding: 0.8rem 1.7rem !important;
     border-radius: 15px !important;
   }
-}
+} */
 
 /* //////////////////////////////////////// */
 /* Mobile Menu button*/
@@ -110,7 +184,7 @@
 @media only screen and (max-width: 992px) {
 
   /* Desktop btn */
-  .navbar__Desktop-btn {
+  .content__btn--navbar {
     display: none !important;
   }
 

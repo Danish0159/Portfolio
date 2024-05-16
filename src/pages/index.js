@@ -34,6 +34,7 @@ export default function Home() {
       <Upwork></Upwork>
       <Schedule></Schedule>
       <Footer></Footer>
+
     </>
   );
 }

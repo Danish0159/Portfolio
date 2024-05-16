@@ -18,12 +18,13 @@ function Hero() {
             </h1>
             <p className="hero__dev">AS A SOFTWARE ENGINEER</p>
             <a
-              className="btn-small btn-hero"
               href="https://www.upwork.com/freelancers/~0116fd22bce4f6fe7b"
               target="_blank"
               rel="noopener"
             >
-              Get Started
+              <button className="content__btn content__btn--hero btn">
+                Get Started
+              </button>
             </a>
           </div>
           <figure className="hero__imgContainer">

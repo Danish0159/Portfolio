@@ -17,9 +17,14 @@ function Navbar() {
                 </ul>
 
                 {/* Desktop */}
-                <a className="navbar__Desktop-btn btn-small" href="https://www.upwork.com/freelancers/~0116fd22bce4f6fe7b"
-                    target="_blank" rel="noopener" rel="noreferrer">Get
-                    Started</a>
+                {/* <a className="navbar__Desktop-btn btn-small" href="https://www.upwork.com/freelancers/~0116fd22bce4f6fe7b"
+                    target="_blank" rel="noopener">Get
+                    Started</a> */}
+                <a href="https://www.upwork.com/freelancers/~0116fd22bce4f6fe7b"
+                    target="_blank" rel="noopener">
+                    <button className="content__btn content__btn--navbar btn">Get Started</button>
+                </a>
+
                 {/* Mobile btn */}
                 <button className="nav-btn" onClick={() => setShow(!show)}></button>
             </nav>
